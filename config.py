@@ -30,55 +30,72 @@ CONFIG = [
     },
     {
         'id': 2,
+        'name': 'pillow',
+        'directory': 'Pillow',
+        'required': True,
+        'rarity_weights': 'random'
+    },
+    {
+        'id': 3,
+        'name': 'pants',
+        'directory': 'Pants',
+        'required': True,
+        'rarity_weights': 'random'
+    },
+    {
+        'id': 4,
         'name': 'body',
         'directory': 'Body',
         'required': True,
         'rarity_weights': 'random'
     },
     {
-        'id': 3,
-        'name': 'eyes',
-        'directory': 'Expressions',
-        'required': True,
-        'rarity_weights': None
-    },
-    {
-        'id': 4,
-        'name': 'head_gear',
-        'directory': 'Head Gear',
-        'required': False,
-        'rarity_weights': None
-    },
-    {
         'id': 5,
         'name': 'clothes',
-        'directory': 'Shirt',
+        'directory': 'Clothes',
         'required': False,
-        'rarity_weights': None
+        'rarity_weights': 'random'
     },
     {
         'id': 6,
-        'name': 'held_item',
-        'directory': 'Misc',
+        'name': 'chains',
+        'directory': 'Chains',
         'required': True,
-        'rarity_weights': None,
+        'rarity_weights': 'random'
     },
     {
         'id': 7,
-        'name': 'hands',
-        'directory': 'Hands',
-        'required': True,
-        'rarity_weights': None,
+        'name': 'earring',
+        'directory': 'earring',
+        'required': False,
+        'rarity_weights': 'random'
     },
     {
         'id': 8,
-        'name': 'wristband',
-        'directory': 'Wristband',
+        'name': 'item',
+        'directory': 'Item',
         'required': False,
-        # There should be 9 types of wristbands, but I could only find one on Github
-        # 'rarity_weights': [100, 5, 5, 15, 5, 5, 15, 15, 5, 1] 
-        # The first weight is because 'required' == False.
-        #       thus we have only 1 in 11 with a yellow wristband, the rest has no wristband.
-        'rarity_weights': [10, 1] 
+        'rarity_weights': 'random'
+    },
+    {
+        'id': 9,
+        'name': 'mouth',
+        'directory': 'Mouth',
+        'required': True,
+        'rarity_weights': 'random'
+    },
+    {
+        'id': 10,
+        'name': 'eyes',
+        'directory': 'Eyes',
+        'required': True,
+        'rarity_weights': 'random'
+    },
+    {
+        'id': 11,
+        'name': 'hats',
+        'directory': 'Hats',
+        'required': False,
+        'rarity_weights': 'random'
     },
 ]
