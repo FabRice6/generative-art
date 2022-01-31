@@ -72,8 +72,8 @@ CONFIG = [
     },
     {
         'id': 8,
-        'name': 'item',
-        'directory': 'Item',
+        'name': 'hats',
+        'directory': 'Hats',
         'required': False,
         'rarity_weights': 'random'
     },
@@ -93,8 +93,8 @@ CONFIG = [
     },
     {
         'id': 11,
-        'name': 'hats',
-        'directory': 'Hats',
+        'name': 'item',
+        'directory': 'Item',
         'required': False,
         'rarity_weights': 'random'
     },
